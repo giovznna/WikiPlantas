@@ -1,0 +1,990 @@
+[
+  {
+    "nome": "Espada de São Jorge",
+    "descricao": "Nome científico: Dracaena trifasciata",
+    "link": "https://www.jardineiro.net/plantas/espada-de-sao-jorge-dracaena-trifasciata.html",
+    "imagem": "https://m.media-amazon.com/images/I/81RXR7z0pnL.jpg",
+    "tags": [
+      "Interior",
+      "Purificadora de Ar",
+      "Resistente"
+    ],
+    "cuidados_principais": {
+      "agua": "Rega espaçada, tolera bem a seca. Deixe o solo secar completamente entre as regas.",
+      "luz": "Adapta-se bem a diversos níveis de luz, desde sombra até luz indireta forte.",
+      "solo": "Bem drenado, simples e com pouca matéria orgânica."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Conhecida por purificar o ar e por suas associações místicas de proteção contra mau-olhado."
+  },
+  {
+    "nome": "Costela-de-Adão",
+    "descricao": "Nome científico: Monstera deliciosa",
+    "link": "https://www.jardineiro.net/plantas/costela-de-adao-monstera-deliciosa.html",
+    "imagem": "https://www.jardineiro.net/wp-content/uploads/2013/08/monstera-deliciosa.jpg",
+    "tags": [
+      "Tropical",
+      "Interior",
+      "Folhagem",
+      "Trepadeira"
+    ],
+    "cuidados_principais": {
+      "agua": "Rega regular, manter o solo úmido mas não encharcado.",
+      "luz": "Luz indireta brilhante ou meia-sombra.",
+      "solo": "Rico em matéria orgânica e bem drenado."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "Os buracos em suas folhas (fenestrações) ajudam a planta a maximizar a captação de luz solar e a resistir a ventos fortes na natureza."
+  },
+  {
+    "nome": "Jiboia",
+    "descricao": "Nome científico: Epipremnum pinnatum",
+    "link": "https://www.jardineiro.net/plantas/jiboia-epipremnum-pinnatum.html",
+    "imagem": "https://historiadaplanta.com/wp-content/uploads/2025/01/jiboia_planta_Epipremnum_aureum-.png",
+    "tags": [
+      "Pendente",
+      "Interior",
+      "Purificadora de Ar"
+    ],
+    "cuidados_principais": {
+      "agua": "Rega moderada, permita que o solo seque um pouco entre as regas.",
+      "luz": "Luz indireta, mas é muito tolerante a condições de pouca luz.",
+      "solo": "Leve e bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "É uma das plantas mais eficientes na remoção de toxinas do ar, como formaldeído e benzeno."
+  },
+  {
+    "nome": "Lírio da Paz",
+    "descricao": "Nome científico: Spathiphyllum wallisii",
+    "link": "https://www.jardineiro.net/plantas/lirio-da-paz-spathiphyllum-wallisii.html",
+    "imagem": "https://jardimpark.com.br/wp-content/uploads/2022/07/lirio-da-paz-1024x615.jpg",
+    "tags": [
+      "Flor Branca",
+      "Interior",
+      "Sombra",
+      "Purificadora de Ar"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo sempre úmido, mas sem encharcar. Gosta de alta umidade.",
+      "luz": "Sombra ou meia-sombra. Sol direto pode queimar suas folhas.",
+      "solo": "Rico em matéria orgânica."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Suas 'flores' brancas são, na verdade, brácteas (folhas modificadas) que protegem as pequenas flores verdadeiras."
+  },
+  {
+    "nome": "Samambaia",
+    "descricao": "Nome científico: Nephrolepis exaltata",
+    "link": "https://www.jardineiro.net/plantas/samambaia-americana-nephrolepis-exaltata.html",
+    "imagem": "https://bepage.com.br/wp-content/uploads/2024/10/samambaia-americana-imensa-e-saudavel.webp",
+    "tags": [
+      "Pendente",
+      "Folhagem",
+      "Meia-Sombra",
+      "Clássica"
+    ],
+    "cuidados_principais": {
+      "agua": "Solo constantemente úmido e alta umidade no ar. Borrifar água nas folhas ajuda.",
+      "luz": "Meia-sombra ou luz filtrada.",
+      "solo": "Leve, poroso e rico em matéria orgânica, como fibra de coco."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "As samambaias são plantas muito antigas, existentes há mais de 300 milhões de anos, antes mesmo dos dinossauros."
+  },
+  {
+    "nome": "Hibisco",
+    "descricao": "Nome científico: Hibiscus rosa-sinensis",
+    "link": "https://www.jardineiro.net/plantas/hibisco-hibiscus-rosa-sinensis.html",
+    "imagem": "https://www.happysprout.com/wp-content/uploads/sites/4/2021/01/red-tropical-hibiscus.jpg?resize=1200%2C720&p=1",
+    "tags": [
+      "Arbusto",
+      "Flor Tropical",
+      "Sol Pleno",
+      "Jardim"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas frequentes, especialmente durante a floração. Não tolera seca.",
+      "luz": "Sol pleno por pelo menos 6 horas diárias para uma floração abundante.",
+      "solo": "Fértil, bem drenado e rico em matéria orgânica."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "O chá de hibisco, feito a partir de outra espécie (Hibiscus sabdariffa), é conhecido por suas propriedades diuréticas e antioxidantes."
+  },
+  {
+    "nome": "Babosa",
+    "descricao": "Nome científico: Aloe vera",
+    "link": "https://www.jardineiro.net/plantas/babosa-aloe-vera.html",
+    "imagem": "https://blog.plantei.com.br/wp-content/uploads/2017/12/Babosa-Capa-1.jpg",
+    "tags": [
+      "Suculenta",
+      "Medicinal",
+      "Sol Pleno",
+      "Resistente"
+    ],
+    "cuidados_principais": {
+      "agua": "Pouca água. Deixar o solo secar completamente entre as regas. Evitar molhar o centro da planta.",
+      "luz": "Sol pleno ou meia-sombra.",
+      "solo": "Arenoso e bem drenado, específico para cactos e suculentas."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "O gel encontrado dentro de suas folhas é amplamente utilizado em produtos cosméticos e medicinais por suas propriedades cicatrizantes e hidratantes."
+  },
+  {
+    "nome": "Zamioculca",
+    "descricao": "Nome científico: Zamioculcas zamiifolia",
+    "link": "https://www.jardineiro.net/plantas/zamioculcas-zamioculcas-zamiifolia.html",
+    "imagem": "https://static.itdg.com.br/images/640-auto/3c4409c63e4752e0387f29ae3cdd519d/zamioculcas-shutterstock-2371995629.jpg",
+    "tags": [
+      "Interior",
+      "Resistente",
+      "Pouca Luz",
+      "Folhagem Brilhante"
+    ],
+    "cuidados_principais": {
+      "agua": "Extremamente tolerante à seca. Regar apenas quando o solo estiver completamente seco.",
+      "luz": "Adapta-se a condições de pouquíssima luz, mas prefere luz indireta.",
+      "solo": "Bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "É conhecida como a 'planta da fortuna' ou 'planta da prosperidade'. Todas as partes da planta são tóxicas se ingeridas."
+  },
+  {
+    "nome": "Peperômia",
+    "descricao": "Nome científico: Peperomia obtusifolia",
+    "link": "https://www.jardineiro.net/plantas/peperomia-peperomia-obtusifolia.html",
+    "imagem": "https://www.jardineiro.net/wp-content/uploads/2025/03/peperomia-obtusifolia-featured.jpg",
+    "tags": [
+      "Pequeno Porte",
+      "Interior",
+      "Folhagem",
+      "Fácil Cuidado"
+    ],
+    "cuidados_principais": {
+      "agua": "Rega moderada, deixar a camada superior do solo secar antes de regar novamente.",
+      "luz": "Luz indireta brilhante.",
+      "solo": "Leve e bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Existe uma vasta diversidade de peperômias, com diferentes formatos, cores e texturas de folhas, tornando-as populares entre colecionadores."
+  },
+  {
+    "nome": "Orquídea Phalaenopsis",
+    "descricao": "Nome científico: Phalaenopsis spp.",
+    "link": "https://www.jardineiro.net/plantas/orquidea-phalaenopsis-phalaenopsis-spp.html",
+    "imagem": "https://cobasiblog.blob.core.windows.net/production-ofc/2023/07/AdobeStock_436265223.webp",
+    "tags": [
+      "Orquídea",
+      "Flor",
+      "Interior",
+      "Meia-Sombra"
+    ],
+    "cuidados_principais": {
+      "agua": "Regar quando o substrato estiver quase seco. Evitar encharcar as raízes.",
+      "luz": "Luz indireta abundante, como perto de uma janela com cortina.",
+      "solo": "Substrato específico para orquídeas, à base de casca de pinus e carvão."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "É uma das orquídeas mais populares para cultivo doméstico devido à sua longa duração de floração, que pode durar meses."
+  },
+  {
+    "nome": "Cacto-amendoim",
+    "descricao": "Nome científico: Echinopsis chamaecereus",
+    "link": "https://www.jardineiro.net/plantas/cacto-amendoim-echinopsis-chamaecereus.html",
+    "imagem": "https://cobasiblog.blob.core.windows.net/production-ofc/2022/07/cacto-amendoim-capa.png",
+    "tags": [
+      "Cacto",
+      "Suculenta",
+      "Sol Pleno",
+      "Pequeno Porte"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas muito espaçadas, apenas quando o solo estiver completamente seco.",
+      "luz": "Sol pleno ou, no mínimo, 6 horas de sol direto.",
+      "solo": "Arenoso e com excelente drenagem."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Seus caules lembram amendoins, daí o nome popular. Produz flores grandes e vistosas, geralmente laranjas ou vermelhas."
+  },
+  {
+    "nome": "Suculenta-dedo-de-moça",
+    "descricao": "Nome científico: Sedum morganianum",
+    "link": "https://www.jardineiro.net/plantas/dedo-de-moca-sedum-morganianum.html",
+    "imagem": "https://cdn.awsli.com.br/800x800/974/974709/produto/36479412/e53e5808a0.jpg",
+    "tags": [
+      "Suculenta",
+      "Pendente",
+      "Sol Pleno",
+      "Ornamental"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas espaçadas, como a maioria das suculentas. Tolera a seca.",
+      "luz": "Sol pleno para manter a forma compacta e a coloração.",
+      "solo": "Bem drenado, próprio para suculentas."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Seu nome científico 'morganianum' é uma homenagem ao botânico Meredith Morgan. É uma planta muito frágil, e suas 'folhas' se soltam com facilidade."
+  },
+  {
+    "nome": "Violeta-africana",
+    "descricao": "Nome científico: Saintpaulia ionantha",
+    "link": "https://www.jardineiro.net/plantas/violeta-africana-saintpaulia-ionantha.html",
+    "imagem": "https://www.floresefolhagens.com.br/wp-content/uploads/2015/11/violeta-africana-saintpaulia-ionantha-1.jpg",
+    "tags": [
+      "Flor",
+      "Interior",
+      "Pequeno Porte",
+      "Luz Indireta"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo levemente úmido. Regar por baixo (no pratinho) para não molhar as folhas.",
+      "luz": "Luz indireta brilhante. Evitar sol direto.",
+      "solo": "Leve, aerado e específico para violetas."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "Apesar do nome, não são verdadeiras violetas. São originárias da Tanzânia e florescem durante todo o ano se bem cuidadas."
+  },
+  {
+    "nome": "Clorofito",
+    "descricao": "Nome científico: Chlorophytum comosum",
+    "link": "https://www.jardineiro.net/plantas/clorofito-chlorophytum-comosum.html",
+    "imagem": "https://tuacasa.uol.com.br/wp-content/uploads/2022/07/clorofito-1.jpg",
+    "tags": [
+      "Pendente",
+      "Interior",
+      "Purificadora de Ar",
+      "Fácil Cuidado"
+    ],
+    "cuidados_principais": {
+      "agua": "Rega regular, manter o solo úmido.",
+      "luz": "Meia-sombra ou luz indireta. Sol forte pode queimar as pontas das folhas.",
+      "solo": "Bem drenado e rico em nutrientes."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Também conhecida como planta-aranha, produz pequenas mudas nas pontas de suas hastes, que podem ser facilmente replantadas."
+  },
+  {
+    "nome": "Begônia",
+    "descricao": "Nome científico: Begonia rex",
+    "link": "https://www.jardineiro.net/plantas/begonia-rex-begonia-rex.html",
+    "imagem": "https://cobasiblog.blob.core.windows.net/production-ofc/2022/07/begonia-rex-capa.webp",
+    "tags": [
+      "Folhagem Colorida",
+      "Interior",
+      "Meia-Sombra",
+      "Ornamental"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo úmido, mas não encharcado. Gosta de umidade.",
+      "luz": "Luz indireta ou sombra. Sol direto danifica as folhas.",
+      "solo": "Fértil e bem drenado."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "A Begonia rex é cultivada principalmente pela beleza de suas folhas, que podem apresentar uma incrível variedade de cores, padrões e texturas."
+  },
+  {
+    "nome": "Antúrio",
+    "descricao": "Nome científico: Anthurium andraeanum",
+    "link": "https://www.jardineiro.net/plantas/anturio-anthurium-andraeanum.html",
+    "imagem": "https://www.petz.com.br/blog/wp-content/uploads/2021/06/como-cuidar-de-anturios.jpg",
+    "tags": [
+      "Flor",
+      "Tropical",
+      "Interior",
+      "Meia-Sombra"
+    ],
+    "cuidados_principais": {
+      "agua": "Rega frequente, gosta de solo sempre úmido.",
+      "luz": "Meia-sombra, com boa claridade, mas sem sol direto.",
+      "solo": "Leve, aerado e rico em matéria orgânica."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "A parte colorida e brilhante, que muitos pensam ser a flor, é na verdade uma espata (folha modificada). As flores reais são os pequenos pontos na espiga (espádice)."
+  },
+  {
+    "nome": "Calathea",
+    "descricao": "Nome científico: Calathea ornata",
+    "link": "https://www.jardineiro.net/plantas/calateia-ornata-calathea-ornata.html",
+    "imagem": "https://www.floresefolhagens.com.br/wp-content/uploads/2015/10/tipos-de-calateias-calathea-1-38.jpg",
+    "tags": [
+      "Folhagem Padronizada",
+      "Interior",
+      "Umidofila",
+      "Meia-Sombra"
+    ],
+    "cuidados_principais": {
+      "agua": "Solo sempre úmido e alta umidade do ar. Use água sem cloro, se possível.",
+      "luz": "Luz indireta ou sombra.",
+      "solo": "Bem drenado e rico em matéria orgânica."
+    },
+    "dificuldade_cultivo": "Difícil",
+    "curiosidades": "As calatheas são conhecidas como 'plantas rezadeiras' porque suas folhas se movem ao longo do dia, levantando-se à noite e abaixando-se durante o dia."
+  },
+  {
+    "nome": "Figueira-lira",
+    "descricao": "Nome científico: Ficus lyrata",
+    "link": "https://www.jardineiro.net/plantas/figueira-lira-ficus-lyrata.html",
+    "imagem": "https://static.wixstatic.com/media/129e86_2d6f2f4822214361a2f336ed4c69fc22~mv2.png/v1/fill/w_568,h_378,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/129e86_2d6f2f4822214361a2f336ed4c69fc22~mv2.png",
+    "tags": [
+      "Árvore",
+      "Interior",
+      "Grande Porte",
+      "Folhagem"
+    ],
+    "cuidados_principais": {
+      "agua": "Deixar o solo secar superficialmente entre as regas. Não gosta de solo encharcado.",
+      "luz": "Luz indireta brilhante. Precisa de muita claridade para prosperar.",
+      "solo": "Bem drenado e fértil."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "Seu nome 'lyrata' vem do latim e refere-se ao formato de suas folhas, que lembram uma lira, um instrumento musical de cordas."
+  },
+  {
+    "nome": "Planta-chinesa-do-dinheiro",
+    "descricao": "Nome científico: Pilea peperomioides",
+    "link": "https://www.jardineiro.net/plantas/planta-chinesa-do-dinheiro-pilea-peperomioides.html",
+    "imagem": "https://www.casamarialucia.com/wp-content/uploads/2024/04/pilea-peperomioides-2-1200x480.webp",
+    "tags": [
+      "Pequeno Porte",
+      "Interior",
+      "Fácil Propagação",
+      "Folhagem Redonda"
+    ],
+    "cuidados_principais": {
+      "agua": "Regar quando o solo estiver seco. É sensível ao excesso de água.",
+      "luz": "Luz indireta brilhante. Gire a planta regularmente para um crescimento uniforme.",
+      "solo": "Bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "É tradicionalmente associada à boa sorte e prosperidade. É muito fácil de propagar a partir das mudas que brotam na base da planta mãe."
+  },
+  {
+    "nome": "Maranta-pena-de-pavão",
+    "descricao": "Nome científico: Maranta leuconeura",
+    "link": "https://www.jardineiro.net/plantas/maranta-pena-de-pavao-maranta-leuconeura.html",
+    "imagem": "https://capitalist.com.br/wp-content/uploads/2024/02/shutterstock-2396111701-1.jpg.webp",
+    "tags": [
+      "Folhagem Padronizada",
+      "Interior",
+      "Planta Rezadeira",
+      "Meia-Sombra"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo uniformemente úmido. Gosta de alta umidade.",
+      "luz": "Luz indireta ou sombra. Sol direto queima as folhas.",
+      "solo": "Rico em matéria orgânica e que retenha umidade."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "Assim como as Calatheas, suas folhas se movem em resposta à luz, levantando-se à noite. As manchas em suas folhas lembram os 'olhos' da cauda de um pavão."
+  },
+  {
+    "nome": "Alocásia-casco-de-tartaruga",
+    "descricao": "Nome científico: Alocasia nebula",
+    "link": "https://www.jardineiro.net/plantas/alocasia-casco-de-tartaruga-alocasia-nebula.html",
+    "imagem": "https://www.jardineiro.net/wp-content/uploads/2021/11/Alocasia_nebula_2.jpg",
+    "tags": [
+      "Alocásia",
+      "Folhagem Exótica",
+      "Interior",
+      "Colecionável"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo levemente úmido, mas com cuidado para não encharcar.",
+      "luz": "Luz indireta brilhante.",
+      "solo": "Substrato bem aerado e com boa drenagem."
+    },
+    "dificuldade_cultivo": "Difícil",
+    "curiosidades": "É uma variedade rara e cobiçada de Alocásia, com folhas de textura espessa e padrões que lembram o casco de uma tartaruga."
+  },
+  {
+    "nome": "Dracena-de-madagascar",
+    "descricao": "Nome científico: Dracaena marginata",
+    "link": "https://www.jardineiro.net/plantas/dracena-de-madagascar-dracaena-marginata.html",
+    "imagem": "https://shopgarden.com.br/produtos/_Dracena_Madagascar.png",
+    "tags": [
+      "Arbusto",
+      "Interior",
+      "Purificadora de Ar",
+      "Médio Porte"
+    ],
+    "cuidados_principais": {
+      "agua": "Rega moderada. Deixe o solo secar entre as regas. Sensível ao flúor na água.",
+      "luz": "Luz indireta brilhante.",
+      "solo": "Bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "As bordas avermelhadas de suas folhas finas dão um toque de cor ao ambiente. É eficaz na remoção de xileno e tricloroetileno do ar."
+  },
+  {
+    "nome": "Caládio",
+    "descricao": "Nome científico: Caladium bicolor",
+    "link": "https://www.jardineiro.net/plantas/caladio-caladium-bicolor.html",
+    "imagem": "https://inaturalist-open-data.s3.amazonaws.com/photos/29047197/original.jpeg",
+    "tags": [
+      "Bulbosa",
+      "Folhagem Colorida",
+      "Meia-Sombra",
+      "Tropical"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas regulares para manter o solo sempre úmido.",
+      "luz": "Sombra ou meia-sombra. O sol forte desbota e queima suas folhas.",
+      "solo": "Rico em matéria orgânica e com boa retenção de umidade."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "Também conhecido como 'coração-de-jesus', entra em dormência no inverno, perdendo as folhas. Seus bulbos (tubérculos) rebrotam na primavera."
+  },
+  {
+    "nome": "Singônio",
+    "descricao": "Nome científico: Syngonium podophyllum",
+    "link": "https://www.jardineiro.net/plantas/singonio-syngonium-podophyllum.html",
+    "imagem": "https://www.jardineiro.net/wp-content/uploads/2025/03/Syngonium_podophyllum-4.jpg",
+    "tags": [
+      "Trepadeira",
+      "Interior",
+      "Folhagem em Flecha",
+      "Fácil Cuidado"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo levemente úmido.",
+      "luz": "Luz indireta. Tolera bem ambientes com menos luz.",
+      "solo": "Rico em matéria orgânica."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Quando jovem, suas folhas têm formato de coração ou flecha. Conforme a planta amadurece e começa a trepar, as folhas mudam de forma, tornando-se divididas."
+  },
+  {
+    "nome": "Flor-de-cera",
+    "descricao": "Nome científico: Hoya carnosa",
+    "link": "https://www.jardineiro.net/plantas/flor-de-cera-hoya-carnosa.html",
+    "imagem": "https://floresefolhagens.com.br/wp-content/uploads/2017/05/flor-de-cera-hoya-carnosa.jpg",
+    "tags": [
+      "Trepadeira",
+      "Pendente",
+      "Flor Perfumada",
+      "Suculenta"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas espaçadas. Deixar o substrato secar bem entre elas.",
+      "luz": "Luz indireta abundante. Um pouco de sol da manhã pode estimular a floração.",
+      "solo": "Leve e muito bem drenado, como substrato para orquídeas ou suculentas."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Suas flores em forma de estrela parecem ser feitas de cera e liberam um perfume adocicado, principalmente à noite. Pode levar anos para florescer pela primeira vez."
+  },
+  {
+    "nome": "Lambari-roxo",
+    "descricao": "Nome científico: Tradescantia zebrina",
+    "link": "https://www.jardineiro.net/plantas/lambari-roxo-tradescantia-zebrina.html",
+    "imagem": "https://s2.glbimg.com/SIbM4C54ZPfd_1vHb8PaciPXkks=/e.glbimg.com/og/ed/f/original/2021/09/29/folha-roxa-e-verde-gettyimages-1277593979.jpg",
+    "tags": [
+      "Forração",
+      "Pendente",
+      "Folhagem Roxa",
+      "Fácil Cuidado"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo levemente úmido.",
+      "luz": "Luz indireta brilhante para manter a cor roxa vibrante. Tolera meia-sombra.",
+      "solo": "Qualquer solo bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "É uma planta de crescimento muito rápido e fácil propagação. Qualquer pedaço do caule que entra em contato com o solo pode criar raízes."
+  },
+  {
+    "nome": "Colar-de-rubi",
+    "descricao": "Nome científico: Crassothona capensis",
+    "link": "https://www.jardineiro.net/plantas/colar-de-rubi-crassothona-capensis.html",
+    "imagem": "https://www.aarquiteta.com.br/blog/wp-content/uploads/2025/01/suculenta-colar-de-rubi02.jpg.webp",
+    "tags": [
+      "Suculenta",
+      "Pendente",
+      "Sol Pleno",
+      "Flor Amarela"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas espaçadas, como outras suculentas.",
+      "luz": "Sol pleno. A luz solar intensa acentua a cor avermelhada ou roxa dos caules.",
+      "solo": "Arenoso e com excelente drenagem."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Em condições de pouca luz, a planta tende a ficar mais verde. Suas pequenas flores amarelas parecem margaridas e surgem ao longo do ano."
+  },
+  {
+    "nome": "Pata de Elefante",
+    "descricao": "Nome científico: Beaucarnea recurvata",
+    "link": "https://www.jardineiro.net/plantas/pata-de-elefante.html",
+    "imagem": "https://www.floresefolhagens.com.br/wp-content/uploads/2019/09/pata-de-elefante-beaucarnea-recurvata-1-2-e1628916756629.jpg",
+    "tags": [
+      "Médio Porte",
+      "Sol Pleno",
+      "Ornamental",
+      "Tolerante à Seca"
+    ],
+    "cuidados_principais": {
+      "agua": "Muito pouca água. A base do caule (cáudice) armazena água.",
+      "luz": "Sol pleno ou, no mínimo, 6 horas de luz direta.",
+      "solo": "Bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "A base do seu tronco é dilatada, servindo como um reservatório de água, o que a torna extremamente resistente à seca. Não é uma palmeira verdadeira."
+  },
+  {
+    "nome": "Árvore da Felicidade",
+    "descricao": "Nome científico: Polyscias fruticosa",
+    "link": "https://www.jardineiro.net/plantas/arvore-da-felicidade.html",
+    "imagem": "https://inaturalist-open-data.s3.amazonaws.com/photos/108461759/original.jpg",
+    "tags": [
+      "Médio Porte",
+      "Interior",
+      "Folhagem",
+      "Sombra",
+      "Sorte"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo levemente úmido, sem encharcar.",
+      "luz": "Meia-sombra ou luz difusa. Não tolera sol direto.",
+      "solo": "Fértil e bem drenado."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "A tradição diz que se deve plantar duas variedades (macho e fêmea) no mesmo vaso para atrair felicidade e fortuna. No entanto, a distinção é puramente comercial."
+  },
+  {
+    "nome": "Estrelítzia",
+    "descricao": "Nome científico: Strelitzia reginae",
+    "link": "https://www.jardineiro.net/plantas/strelitzia.html",
+    "imagem": "https://m.media-amazon.com/images/I/71o+JWLOZyL.jpg",
+    "tags": [
+      "Flor Exótica",
+      "Tropical",
+      "Grande Porte",
+      "Sol ou Meia-Sombra"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas regulares, permitindo que o solo seque um pouco entre elas.",
+      "luz": "Prefere sol pleno, mas tolera meia-sombra (pode florescer menos).",
+      "solo": "Fértil e bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Também conhecida como 'Ave-do-paraíso', sua flor exótica se assemelha à cabeça de um pássaro tropical. É a flor oficial da cidade de Los Angeles."
+  },
+  {
+    "nome": "Jasmim Manga",
+    "descricao": "Nome científico: Plumeria rubra",
+    "link": "https://www.jardineiro.net/plantas/jasmim-manga.html",
+    "imagem": "https://www.gardenia.net/wp-content/uploads/2023/05/Plumeria-rubra.webp",
+    "tags": [
+      "Arbusto",
+      "Flores Perfumadas",
+      "Tropical",
+      "Paisagismo"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas moderadas. É tolerante à seca depois de estabelecida.",
+      "luz": "Sol pleno.",
+      "solo": "Bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Suas flores são usadas para fazer os famosos colares havaianos ('leis'). O perfume das flores é mais intenso durante a noite."
+  },
+  {
+    "nome": "Dinheiro em Penca",
+    "descricao": "Nome científico: Callisia repens",
+    "link": "https://www.jardineiro.net/plantas/dinheiro-em-penca.html",
+    "imagem": "https://blog.plantei.com.br/wp-content/uploads/2024/06/tostao-dinheiro-em-penca.jpg",
+    "tags": [
+      "Pendente",
+      "Rasteira",
+      "Fácil Cuidado",
+      "Interior"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo levemente úmido.",
+      "luz": "Luz indireta ou meia-sombra.",
+      "solo": "Leve e bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Popularmente associada à atração de dinheiro e sorte. Seu crescimento rápido e denso cria um tapete de pequenas folhas."
+  },
+  {
+    "nome": "Suculenta Rosário",
+    "descricao": "Nome científico: Senecio rowleyanus",
+    "link": "https://www.jardineiro.net/plantas/colar-de-perolas.html",
+    "imagem": "https://s2.glbimg.com/5SyobRSwUimx4tSfhAc4Pkfw1_A=/e.glbimg.com/og/ed/f/original/2022/01/21/colar-de-perolas-tem-folhas-com-formato-de-ervilhas.jpg",
+    "tags": [
+      "Suculenta",
+      "Pendente",
+      "Sol Pleno",
+      "Ornamental"
+    ],
+    "cuidados_principais": {
+      "agua": "Regar somente quando o substrato estiver completamente seco. As 'pérolas' armazenam água.",
+      "luz": "Luz indireta brilhante. Sol direto forte pode queimar as folhas.",
+      "solo": "Substrato para cactos e suculentas, com excelente drenagem."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "Também chamada de 'Colar de Pérolas'. Suas folhas esféricas são uma adaptação para minimizar a perda de água em seu habitat desértico."
+  },
+  {
+    "nome": "Gerânio",
+    "descricao": "Nome científico: Pelargonium spp.",
+    "link": "https://www.jardineiro.net/plantas/geranio.html",
+    "imagem": "https://tuacasa.uol.com.br/wp-content/uploads/2021/08/geranios-0.jpg",
+    "tags": [
+      "Flor",
+      "Varanda",
+      "Sol Pleno",
+      "Popular",
+      "Perene"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas regulares, mas sem encharcar. Deixar o solo secar um pouco.",
+      "luz": "Sol pleno.",
+      "solo": "Fértil e bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "O óleo essencial de gerânio é amplamente utilizado na aromaterapia e perfumaria. O que chamamos de gerânio é, na verdade, do gênero Pelargonium."
+  },
+  {
+    "nome": "Bromélia",
+    "descricao": "Nome científico: Aechmea fasciata",
+    "link": "https://www.jardineiro.net/plantas/bromelia.html",
+    "imagem": "https://tuacasa.uol.com.br/wp-content/uploads/2019/06/bromelia-0.jpg",
+    "tags": [
+      "Tropical",
+      "Interior",
+      "Epífita",
+      "Flor Durável"
+    ],
+    "cuidados_principais": {
+      "agua": "Molhar o 'copo' central da planta, mantendo-o com um pouco de água. Regar o solo apenas ocasionalmente.",
+      "luz": "Luz indireta brilhante.",
+      "solo": "Substrato leve e poroso, como casca de pinus."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Após a floração, a planta principal geralmente morre, mas antes disso, ela produz brotos laterais que se tornarão novas plantas."
+  },
+  {
+    "nome": "Rabo de Gato",
+    "descricao": "Nome científico: Acalypha hispida",
+    "link": "https://www.jardineiro.net/plantas/rabo-de-gato.html",
+    "imagem": "https://www.sitiodamata.com.br/media/catalog/product/cache/bd7e41e8357e6ae06c7d33758afd4978/r/a/rabo-de-gato-acalypha-reptans_2nd.jpg",
+    "tags": [
+      "Arbusto",
+      "Flor Vermelha",
+      "Tropical",
+      "Meia-Sombra"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo sempre úmido.",
+      "luz": "Meia-sombra ou luz difusa.",
+      "solo": "Rico em matéria orgânica."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "Suas inflorescências vermelhas, longas e felpudas são a principal atração e se parecem com um rabo de gato, daí o nome popular."
+  },
+  {
+    "nome": "Palmeira Ráfis",
+    "descricao": "Nome científico: Rhapis excelsa",
+    "link": "https://www.jardineiro.net/plantas/palmeira-rafis.html",
+    "imagem": "https://d2iwr6cbo83dtj.cloudfront.net/2025/01/emod-palmeira-rafis-unsplash.jpg",
+    "tags": [
+      "Palmeira",
+      "Interior",
+      "Médio Porte",
+      "Purificadora de Ar"
+    ],
+    "cuidados_principais": {
+      "agua": "Rega moderada, manter o solo levemente úmido.",
+      "luz": "Meia-sombra ou sombra. Não tolera sol direto.",
+      "solo": "Fértil e bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "É uma das palmeiras mais populares para cultivo em interiores devido à sua alta tolerância a ambientes com pouca luz."
+  },
+  {
+    "nome": "Pingo de Ouro",
+    "descricao": "Nome científico: Duranta erecta 'Aurea'",
+    "link": "https://www.jardineiro.net/plantas/pingo-de-ouro.html",
+    "imagem": "https://belavistaplantas.com.br/wp-content/uploads/2016/02/pingo-ouro.jpg",
+    "tags": [
+      "Arbusto",
+      "Cerca Viva",
+      "Folhagem Amarela",
+      "Sol Pleno"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas regulares, principalmente nos primeiros meses após o plantio.",
+      "luz": "Sol pleno para manter a cor dourada vibrante.",
+      "solo": "Não é exigente, mas prefere solos férteis."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "É amplamente utilizada em paisagismo para criar contrastes de cor no jardim. Aceita podas para formação de cercas-vivas e topiarias."
+  },
+  {
+    "nome": "Lavanda",
+    "descricao": "Nome científico: Lavandula angustifolia",
+    "link": "https://www.jardineiro.net/plantas/lavanda.html",
+    "imagem": "https://saude.abril.com.br/wp-content/uploads/2024/12/lavanda-beneficios-saude.jpg?crop=1&resize=1212,909",
+    "tags": [
+      "Aromática",
+      "Medicinal",
+      "Flores Roxas",
+      "Sol Pleno"
+    ],
+    "cuidados_principais": {
+      "agua": "Pouca água. Tolera bem a seca e não gosta de solo encharcado.",
+      "luz": "Sol pleno, no mínimo 6 horas por dia.",
+      "solo": "Leve, arenoso e bem drenado, de preferência alcalino."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "Também conhecida como Alfazema, é famosa por seu perfume relaxante, usado em óleos essenciais, sachês e produtos de aromaterapia."
+  },
+  {
+    "nome": "Hera Inglesa",
+    "descricao": "Nome científico: Hedera helix",
+    "link": "https://www.jardineiro.net/plantas/hera-inglesa.html",
+    "imagem": "https://cdn.assets-casacor.tec.br/file/casacor-images-news/2025/08/elizabeth-marriott-7laiCrvIrqM-unsplash.webp",
+    "tags": [
+      "Trepadeira",
+      "Pendente",
+      "Sombra",
+      "Folhagem"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo levemente úmido.",
+      "luz": "Sombra ou meia-sombra. Algumas variedades variegadas gostam de um pouco mais de luz.",
+      "solo": "Fértil e bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Pode ser usada como forração de solo ou como trepadeira, aderindo a muros e paredes. Em algumas regiões, é considerada uma espécie invasora."
+  },
+  {
+    "nome": "Cacto Mandacaru",
+    "descricao": "Nome científico: Cereus jamacaru",
+    "link": "https://www.jardineiro.net/plantas/mandacaru.html",
+    "imagem": "https://s2-casaejardim.glbimg.com/xdgh9nWSpiINzuJWTRofzTbGKa8=/0x0:1400x933/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_a0b7e59562ef42049f4e191fe476fe7d/internal_photos/bs/2023/J/4/f5RFT9TQKFr8LM9TA7hw/cactos-e-flor-de-cactos-gettyimages-1447981386.jpg",
+    "tags": [
+      "Cacto",
+      "Deserto",
+      "Grande Porte",
+      "Nativo"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas muito espaçadas. É extremamente resistente à seca.",
+      "luz": "Sol pleno.",
+      "solo": "Arenoso e muito bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Símbolo do sertão nordestino, sua flor branca e grande abre apenas durante a noite e murcha pela manhã. Seus frutos são comestíveis."
+  },
+  {
+    "nome": "Alecrim",
+    "descricao": "Nome científico: Salvia rosmarinus",
+    "link": "https://www.jardineiro.net/plantas/alecrim.html",
+    "imagem": "https://safraviva.com.br/wp-content/uploads/2022/04/alecrim0.jpg",
+    "tags": [
+      "Temperos",
+      "Aromática",
+      "Medicinal",
+      "Sol Pleno"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas espaçadas, tolera solos secos.",
+      "luz": "Sol pleno.",
+      "solo": "Leve, arenoso e bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "É uma erva popular na culinária mediterrânea. Acredita-se que seu aroma estimula a memória e a concentração."
+  },
+  {
+    "nome": "Flor de Maio",
+    "descricao": "Nome científico: Schlumbergera truncata",
+    "link": "https://www.jardineiro.net/plantas/flor-de-maio.html",
+    "imagem": "https://cloudfront-us-east-1.images.arcpublishing.com/estadao/AGPYEZG5X5HKFBNFB3FMJ23VTY.jpeg",
+    "tags": [
+      "Cacto Epífita",
+      "Flor de Inverno",
+      "Interior",
+      "Pendente"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o substrato levemente úmido durante a floração. Reduzir as regas após.",
+      "luz": "Luz indireta brilhante.",
+      "solo": "Leve e rico em matéria orgânica."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "É um cacto de floresta, diferente dos cactos de deserto. Floresce no outono/inverno do hemisfério sul, próximo ao mês de maio, daí seu nome."
+  },
+  {
+    "nome": "Pinheiro-de-Natal",
+    "descricao": "Nome científico: Araucaria heterophylla",
+    "link": "https://www.jardineiro.net/plantas/pinheiro-de-natal.html",
+    "imagem": "https://lojahusqvarna.pt/files/sites/2/2020/12/Pinheiro-Norfolk-Araucaria-Heterophylla.jpg",
+    "tags": [
+      "Grande Porte",
+      "Ornamental",
+      "Conífera",
+      "Árvore"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas regulares, manter o solo úmido mas não encharcado.",
+      "luz": "Luz indireta brilhante dentro de casa, ou meia-sombra no exterior.",
+      "solo": "Bem drenado."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "Apesar do nome popular, não é um verdadeiro pinheiro. É nativo da Ilha Norfolk, no Pacífico. Seus galhos crescem em camadas horizontais e simétricas."
+  },
+  {
+    "nome": "Manjericão",
+    "descricao": "Nome científico: Ocimum basilicum",
+    "link": "https://www.jardineiro.net/plantas/manjericao.html",
+    "imagem": "https://www.instaagro.com/media/wysiwyg/plantar_manjericao.jpg",
+    "tags": [
+      "Erva",
+      "Temperos",
+      "Anual",
+      "Hortaliça"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas frequentes para manter o solo sempre úmido.",
+      "luz": "Sol pleno, pelo menos 4 horas por dia.",
+      "solo": "Fértil e bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "É o ingrediente principal do molho pesto. Beliscar as pontas dos galhos estimula a planta a crescer mais cheia e arbustiva."
+  },
+  {
+    "nome": "Papiro",
+    "descricao": "Nome científico: Cyperus papyrus",
+    "link": "https://www.jardineiro.net/plantas/papiro.html",
+    "imagem": "https://coisasdesitio.com.br/wp-content/uploads/2023/06/papiro-cyperus-giganteus.jpg",
+    "tags": [
+      "Aquática",
+      "Brejo",
+      "Ornamental",
+      "Grande"
+    ],
+    "cuidados_principais": {
+      "agua": "Precisa de muita água. Pode ser cultivado com as raízes submersas em água.",
+      "luz": "Sol pleno.",
+      "solo": "Encharcado, lodoso."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "A planta usada pelos antigos egípcios para fazer papel era o Cyperus papyrus. Suas hastes eram cortadas em tiras finas, prensadas e secas."
+  },
+  {
+    "nome": "Rosa do Deserto",
+    "descricao": "Nome científico: Adenium obesum",
+    "link": "https://www.jardineiro.net/plantas/rosa-do-deserto.html",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Adenium_obesum_%28Forssk.%29_Roemer_%26_Schultes_%282%29.jpg",
+    "tags": [
+      "Suculenta",
+      "Flor Exótica",
+      "Sol Pleno",
+      "Caudex"
+    ],
+    "cuidados_principais": {
+      "agua": "Pouca água. O caudex (caule engrossado) armazena água. Deixar o solo secar completamente.",
+      "luz": "Sol pleno, no mínimo 6 horas diárias.",
+      "solo": "Muito bem drenado, específico para suculentas."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "A seiva da planta é tóxica. O formato do seu caudex é muito valorizado em competições e por colecionadores."
+  },
+  {
+    "nome": "Aspargo Pendente",
+    "descricao": "Nome científico: Asparagus densiflorus 'Sprengeri'",
+    "link": "https://www.jardineiro.net/plantas/aspargo-pendente.html",
+    "imagem": "https://www.sitiodamata.com.br/media/catalog/product/cache/80281f1a4d89199560fc0837e49d13da/a/s/aspargo-alfinete-aspargus-densiflorus-sprengeri-5_2nd.webp",
+    "tags": [
+      "Pendente",
+      "Folhagem",
+      "Vaso",
+      "Meia-Sombra"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas regulares, manter o solo levemente úmido.",
+      "luz": "Meia-sombra ou luz indireta.",
+      "solo": "Fértil e bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Apesar do nome, não é um verdadeiro aspargo nem uma samambaia. Produz pequenas flores brancas e frutos vermelhos que são tóxicos."
+  },
+  {
+    "nome": "Chifre de Veado",
+    "descricao": "Nome científico: Platycerium bifurcatum",
+    "link": "https://www.jardineiro.net/plantas/chifre-de-veado.html",
+    "imagem": "https://s2.glbimg.com/adQ9Cgte4PGbRVxCS45Awn9NRvE=/e.glbimg.com/og/ed/f/original/2021/09/20/1-chifre-de-veado-planta-gettyimages-casaejardim.jpg",
+    "tags": [
+      "Epífita",
+      "Pendente",
+      "Samambaia",
+      "Sombra"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas por imersão ou borrifando abundantemente as folhas e a base. Gosta de umidade.",
+      "luz": "Sombra ou luz indireta brilhante.",
+      "solo": "Geralmente cultivada em placas de madeira ou fibra de coco, sem solo."
+    },
+    "dificuldade_cultivo": "Médio",
+    "curiosidades": "É uma samambaia epífita que possui dois tipos de folhas: as da base, que são estéreis e protegem as raízes, e as férteis, que se parecem com chifres de veado."
+  },
+  {
+    "nome": "Cica Revoluta",
+    "descricao": "Nome científico: Cycas revoluta",
+    "link": "https://www.jardineiro.net/plantas/cica-revoluta.html",
+    "imagem": "https://www.jardineiro.net/wp-content/uploads/2013/08/Cycas_revoluta_leaves_crown.webp",
+    "tags": [
+      "Médio Porte",
+      "Ornamental",
+      "Jardim",
+      "Sol Pleno"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas moderadas, tolera curtos períodos de seca.",
+      "luz": "Sol pleno ou meia-sombra.",
+      "solo": "Bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "É uma planta pré-histórica, muitas vezes confundida com uma palmeira. Seu crescimento é extremamente lento, podendo levar décadas para atingir a maturidade."
+  },
+  {
+    "nome": "Erva Baleeira",
+    "descricao": "Nome científico: Cordia verbenacea",
+    "link": "https://www.jardineiro.net/plantas/erva-baleeira.html",
+    "imagem": "https://lh3.googleusercontent.com/proxy/5OGQq2sOEtdqPxUdrscWazc1ZPMscHbZeQAyCehmhVrijwQi5Q2e4S1WHHpDODWWP-9GH0vANoSqE37Tglhe9Ml7aZrOOvPdI2duwDuiOI8PzwwyxR5Jsmgkf_qyGO6wGoA9uSNAyNUr1Pc",
+    "tags": [
+      "Medicinal",
+      "Arbusto",
+      "Nativa",
+      "Anti-inflamatória"
+    ],
+    "cuidados_principais": {
+      "agua": "Regas regulares no início, depois se torna tolerante à seca.",
+      "luz": "Sol pleno.",
+      "solo": "Não é exigente, adapta-se a solos pobres."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Nativa da mata atlântica brasileira, é famosa por suas propriedades medicinais, especialmente como anti-inflamatório em pomadas e chás."
+  },
+  {
+    "nome": "Pilea Cadierei",
+    "descricao": "Nome científico: Pilea cadierei",
+    "link": "https://www.jardineiro.net/plantas/pilea-cadierei.html",
+    "imagem": "https://www.sitiodamata.com.br/media/catalog/product/cache/bd7e41e8357e6ae06c7d33758afd4978/p/i/pilea-aluminio-pilea-cadierei_2nd.jpg",
+    "tags": [
+      "Folhagem",
+      "Interior",
+      "Pequeno Porte",
+      "Prateada"
+    ],
+    "cuidados_principais": {
+      "agua": "Manter o solo levemente úmido.",
+      "luz": "Luz indireta brilhante.",
+      "solo": "Bem drenado."
+    },
+    "dificuldade_cultivo": "Fácil",
+    "curiosidades": "Também conhecida como 'Planta Alumínio' devido às manchas prateadas em suas folhas, que parecem ter sido pintadas com tinta metálica."
+  }
+]

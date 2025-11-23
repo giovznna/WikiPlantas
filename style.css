@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+:root {
+    --primary-color: #212221; /* Cor primária  */
+    --secondary-color: #0f100f; /* Cor secundária  */
+    --tertiary-color: #113817; /* Cor terciária  */
+    --bg-color: #c9e0cd; /* Cor de fundo */
+    --card-bg-color: rgba(171, 193, 171, 0.95);
+    --button-bg-color: #c9e0cd;
+    --button-text-color: var(--primary-color);
+}
+
+body.dark-mode {
+    --primary-color: #e0e0e0;
+    --secondary-color: #f0f0f0;
+    --tertiary-color: #55a665;
+    --bg-color: #121212;
+    --card-bg-color: rgba(28, 28, 28, 0.95);
+    --button-bg-color: #333;
+    --button-text-color: #fff;
+}
+
+body {
+    display: flex; /* Usa Flexbox para o layout principal */
+    flex-direction: column; /* Organiza os filhos (header, main, footer) em coluna */
+    min-height: 100vh; /* Garante que o body ocupe pelo menos a altura total da tela */
+    margin: 0; /* Remove a margem padrão do body */
+    color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+
+    /* Adiciona o fundo animado */
+    background-color: var(--bg-color); /* Cor de fundo sólida como fallback */    
+    position: relative; /* Necessário para o posicionamento do pseudo-elemento */
+}
+
+body::before {
+    content: '';
+    position: fixed; /* Cobre toda a tela, fixo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.pinimg.com/originals/55/da/c7/55dac724a4fa886a05253c6956ba1436.gif');
+    background-size: 40%; /* Redimensiona a imagem para um tamanho menor */
+    background-repeat: repeat; /* Faz a imagem se repetir para preencher o fundo */
+    z-index: -1; /* Coloca o fundo atrás de todo o conteúdo */
+}
+
+
+header {
+    padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
+    display: flex; /* Habilita o layout flexbox */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    position: relative; /* Necessário para posicionar o botão de tema */
+    top: 0; /* Posição do topo quando sticky */
+    background: transparent; /* Cor de fundo transparente para o cabeçalho */
+    z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
+    gap: 1rem; /* Espaçamento entre os elementos flex */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    margin: 0; /* Remove a margem padrão */
+    font-weight: 700; /* Peso da fonte (médio) */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra para legibilidade */
+}
+
+div input {
+    padding: 0.375rem 0.75rem; /* Espaçamento interno */
+    border-radius: 1rem; /* Arredonda as bordas */
+    border: 1px solid var(--tertiary-color); /* Define a borda */
+    background: var(--bg-color); /* Cor de fundo */
+    font-family: inherit; /* Herda a família da fonte do elemento pai */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    transition: all 0.2s ease;
+    width: 15rem; /* Largura do input */
+    color: var(--secondary-color); /* Cor do texto digitado */
+    margin-right: .5rem; /* Margem à direita */
+}
+
+div input::placeholder {
+    font-size: 1.1rem; /* Tamanho da fonte do placeholder */
+    font-weight: 400; /* Peso da fonte do placeholder */
+    color: var(--tertiary-color); /* Cor do texto do placeholder */
+}
+
+div input:focus {
+    outline: none; /* Remove a borda de foco padrão */
+    border-color: var(--bg-color); /* Muda a cor da borda ao focar */
+    box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra de caixa para indicar foco */
+}
+
+main {
+    flex: 1; /* Faz o conteúdo principal crescer para ocupar o espaço disponível */
+}
+
+.card-container {
+    max-width: 90rem; /* Define a largura máxima para o container dos cards */
+    margin: 1rem auto 0; /* Centraliza o container e adiciona margem no topo */
+    padding: 1rem 10rem; /* Adiciona um espaçamento lateral para não colar nas bordas */
+    background-color: var(--card-bg-color); /* Fundo quase opaco para melhorar a legibilidade */    
+}
+
+.card-container.hidden {
+    background-color: transparent;
+    padding: 0;
+}
+
+.card-container.initial-message {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.card-container.initial-message p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.card-container.no-results {
+    background-color: transparent !important; /* Remove o fundo para a mensagem de "nenhum resultado" */
+    padding: 0 2rem 2rem; /* Reduz o espaçamento superior para mover o texto para cima */
+    border-radius: 1rem; /* Arredonda as bordas */
+}
+
+.card-container.no-results p {
+    font-size: 1.5rem; /* Aumenta o tamanho da fonte da mensagem */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: var(--primary-color); /* Usa a cor primária para o texto */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 0; /* Remove a margem negativa em telas maiores */
+    padding-top: 2rem; /* Adiciona espaçamento superior para afastar do campo de busca */
+}
+
+article {
+    position: relative; /* Necessário para posicionar o conteúdo interno */
+    background-color: transparent; /* Garante que não haja cor de fundo inicial */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0; /* Sem bordas arredondadas */
+    padding: 0; /* Remove o padding */
+    margin-bottom: 1.25rem; /* Margem inferior */
+    box-shadow: none; /* Sem sombra */
+    transition: transform 0.3s ease, background-color 0.4s ease, background-image 0.4s ease-in-out; /* Transição suave */
+    border-bottom: 1px solid var(--bg-color); /* Borda inferior */
+    padding-bottom: 1.5rem; /* Espaçamento interno inferior */
+    overflow: hidden; /* Garante que nada saia dos limites do card */
+}
+
+/* Estilos para as novas seções e tags */
+.details-section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .details-section {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.details-section h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--tertiary-color);
+}
+
+.tags-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    background-color: var(--tertiary-color);
+    color: var(--bg-color);
+    padding: 0.25rem 0.6rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+body.dark-mode .tag {
+    background-color: var(--tertiary-color);
+    color: #000;
+}
+
+.link-container {
+    margin-top: 1rem;
+}
+
+
+article .content {
+    width: 50%; /* Garante que o conteúdo ocupe apenas a metade esquerda */
+    padding-right: 1rem; /* Adiciona um espaçamento à direita para afastar o texto da imagem */
+    transition: opacity 0.4s ease; /* Transição suave para o conteúdo desaparecer */
+}
+
+/* Removemos a regra que fazia o texto sumir */
+/* 
+article:hover .content {
+    opacity: 0;
+}
+*/
+
+/* Novo pseudo-elemento para a imagem */
+article::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%; /* Começa na metade horizontal */
+    width: 50%; /* Ocupa a metade direita do card */
+    height: 100%; /* Ocupa a altura total do card */
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    opacity: 0; /* Começa invisível */
+    transition: opacity 0.4s ease; /* Transição suave para a opacidade */
+    z-index: -1; /* Fica atrás do texto */
+}
+
+article:hover {
+    transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para uma mão */
+}
+
+article:hover::after {
+    opacity: 1; /* Torna a imagem visível ao passar o mouse */
+}
+
+article h2 {
+    margin-top: 0; /* Remove a margem superior */
+    font-weight: 700; /* Peso da fonte */
+    font-size: 1.8rem; /* Tamanho da fonte */
+    border-bottom: none; /* Sem borda inferior */
+    padding-bottom: 0; /* Sem espaçamento interno inferior */
+    margin-bottom: 0.25rem; /* Margem inferior */
+    color: var(--primary-color); /* Cor do texto */
+}
+
+article p {
+    margin: 0.5rem 0; /* Margem superior e inferior */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    margin-bottom: 0.5rem; /* Margem inferior */
+    color: var(--secondary-color); /* Cor do texto */
+}
+
+article p strong {
+    color: var(--tertiary-color); /* Cor do texto em negrito */
+    font-weight: 800; /* Peso da fonte */
+}
+
+article a {
+    color: var(--primary-color); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: 800; /* Peso da fonte */
+}
+
+.plant-details {
+    display: none; /* Oculta os detalhes por padrão */
+    margin-top: 1rem; /* Adiciona espaço acima das dicas quando visível */
+}
+
+article a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.floating-github-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--button-bg-color); /* Cor de fundo sólida para o ícone */
+    color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    z-index: 100;
+}
+
+.floating-github-icon:hover {
+    transform: scale(1.1);
+    background-color: var(--tertiary-color);
+    color: var(--bg-color);
+}
+
+.theme-toggle-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: 1px solid var(--tertiary-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    header { /* Estilos para telas com largura máxima de 768px */
+        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+        padding: 1rem; /* Reduz o espaçamento interno */
+    }
+
+    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 1rem; /* Adiciona margem inferior */
+    }
+
+    div input { /* Estilos para o input em telas menores */
+        width: 90vw; /* Largura baseada na largura da viewport */
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    }
+
+    .card-container.initial-message p {
+        font-size: 1.5rem;
+    }
+
+    .card-container {
+        padding-left: 1rem; /* Reduz o espaçamento lateral para telas menores */
+        padding-right: 1rem;
+    }
+
+    main { /* Estilos para o main em telas menores */
+        padding: 0; /* Remove o espaçamento lateral */
+    }
+
+    article:hover { /* Estilos para o article em telas menores */
+        transform: none; /* Remove o efeito de escala ao passar o mouse */
+    }
+
+    article::after {
+        display: none; /* Oculta a imagem que aparece no hover em telas menores */
+    }
+
+    article .content {
+        width: 100%; /* Em telas menores, o conteúdo volta a ocupar 100% */
+    }
+
+}
+
+@media (max-width: 480px) {
+    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
+        max-width: 70%; /* Define uma largura máxima */
+        word-wrap: break-word; /* Permite a quebra de palavras longas */
+    }
+
+    div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+    div input::placeholder {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+    }
+
+    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
+        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    }
+
+    article p {
+        font-size: 1.2rem; /* Reduz o tamanho da fonte dos parágrafos nos cards */
+    }
+
+    div { /* Estilos para a div do cabeçalho em telas muito pequenas */
+        display: flex; /* Habilita flexbox */
+        align-items: center; /* Alinha itens ao centro */
+        justify-content: center; /* Centraliza itens */
+        flex-direction: column; /* Organiza em coluna */
+        gap: 0.5rem; /* Espaçamento entre os itens */
+    }
+    
+}

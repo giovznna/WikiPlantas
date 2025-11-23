@@ -1,0 +1,135 @@
+let cardContainer = document.querySelector(".card-container");
+let allPlantsData = []; // Armazena todos os dados das plantas
+
+async function iniciarBusca(searchTerm = '') {
+    // Busca os dados apenas uma vez, na primeira chamada
+    if (allPlantsData.length === 0) {
+        let resposta = await fetch("data.json");
+        allPlantsData = await resposta.json();
+    }
+ 
+    // Se o termo de busca estiver vazio, mostra a mensagem inicial
+    if (searchTerm.trim() === '') {
+        mostrarMensagemInicial();
+        return;
+    }
+ 
+    // Aplica o filtro se um termo de busca for fornecido
+    const dataToRender = allPlantsData.filter(plant => {
+        const lowerCaseSearchTerm = searchTerm.toLowerCase();
+        const nameMatches = plant.nome.toLowerCase().includes(lowerCaseSearchTerm);
+        const descriptionMatches = plant.descricao.toLowerCase().includes(lowerCaseSearchTerm);
+        const tagsMatches = Array.isArray(plant.tags) && plant.tags.some(tag => tag.toLowerCase().includes(lowerCaseSearchTerm));
+        const curiositiesMatches = plant.curiosidades && plant.curiosidades.toLowerCase().includes(lowerCaseSearchTerm);
+        const difficultyMatches = plant.dificuldade_cultivo && plant.dificuldade_cultivo.toLowerCase().includes(lowerCaseSearchTerm);
+
+        return nameMatches || descriptionMatches || tagsMatches || curiositiesMatches || difficultyMatches;
+
+    }).sort((a, b) => a.nome.localeCompare(b.nome)); // Ordena os resultados em ordem alfabética pelo nome
+ 
+    renderizarCards(dataToRender); // Renderiza os dados filtrados
+}
+ 
+function renderizarCards(dataToRender) {
+    cardContainer.innerHTML = ''; // Limpa os cards existentes antes de renderizar novos
+    cardContainer.classList.remove('initial-message'); // Remove a classe inicial
+    cardContainer.classList.remove('hidden');
+ 
+    if (dataToRender.length === 0) {
+        cardContainer.innerHTML = '<p>Ainda não conhecemos essa plantinha. 😿</p>';
+        cardContainer.classList.add('no-results'); // Adiciona a classe quando não há resultados
+        cardContainer.classList.remove('initial-message');
+        return;
+    }
+ 
+    cardContainer.classList.remove('no-results'); // Remove a classe se houver resultados
+    for (const dado of dataToRender) {
+        let article = document.createElement("article");
+        article.classList.add("card");
+
+        // Define a imagem de fundo do card, se existir no JSON
+        if (dado.imagem && dado.imagem.trim() !== '') {
+            article.style.setProperty('--bg-image', `url('${dado.imagem}')`);
+        }
+
+        // Adiciona o link "Saiba mais" apenas se o dado.link existir
+        let linkHtml = dado.link ? `<a href="${dado.link}" target="_blank">Saiba mais</a>` : '';
+        
+        // Formata as tags para exibição
+        const tagsHtml = Array.isArray(dado.tags) ? dado.tags.map(tag => `<span class="tag">${tag}</span>`).join('') : '';
+
+        article.innerHTML=`
+        <div class="content">
+            <h2>${dado.nome}</h2>
+            <p>${dado.descricao}</p>
+            <div class="details-section">
+                <p><strong>Dificuldade de Cultivo:</strong> ${dado.dificuldade_cultivo || 'Não informado'}</p>
+                <p><strong>Curiosidades:</strong> ${dado.curiosidades || 'Não informado'}</p>
+            </div>
+            <div class="details-section">
+                <h3>Cuidados Principais</h3>
+                <p><strong>Luz:</strong> ${dado.cuidados_principais?.luz || 'Não informado'}</p>
+                <p><strong>Água:</strong> ${dado.cuidados_principais?.agua || 'Não informado'}</p>
+                <p><strong>Solo:</strong> ${dado.cuidados_principais?.solo || 'Não informado'}</p>
+            </div>
+            <div class="tags-container">${tagsHtml}</div>
+            <div class="link-container">${linkHtml}</div>
+        </div>
+        `;
+        cardContainer.appendChild(article);
+    }
+}
+
+function mostrarMensagemInicial() {
+    cardContainer.innerHTML = '<p>Descubra curiosidades e cuidados sobre suas plantas favoritas! </p>';
+    cardContainer.classList.add('initial-message');
+    cardContainer.classList.remove('no-results');
+    cardContainer.classList.remove('hidden');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.querySelector('#searchInput');
+    const header = document.querySelector('header');
+
+    // Cria e configura o botão de tema
+    const themeToggleButton = document.createElement('button');
+    themeToggleButton.classList.add('theme-toggle-button');
+    
+    // Adiciona o botão ao cabeçalho
+    if (header) {
+        header.appendChild(themeToggleButton);
+    }
+
+    // Função para aplicar o tema
+    const applyTheme = (theme) => {
+        if (theme === 'dark') {
+            document.body.classList.add('dark-mode');
+            themeToggleButton.textContent = '🌞'; // Sol para ir para o modo claro
+        } else {
+            document.body.classList.remove('dark-mode');
+            themeToggleButton.textContent = '🌙'; // Lua para ir para o modo escuro
+        }
+    };
+
+    // Evento de clique para o botão
+    themeToggleButton.addEventListener('click', () => {
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        const newTheme = isDarkMode ? 'light' : 'dark';
+        localStorage.setItem('theme', newTheme); // Salva a preferência
+        applyTheme(newTheme);
+    });
+
+    if (searchInput) {
+        // Mostra a mensagem inicial ao carregar a página
+        mostrarMensagemInicial();
+
+        // Aciona a busca a cada alteração no campo de input
+        searchInput.addEventListener('input', () => {
+            iniciarBusca(searchInput.value);
+        });
+    }
+
+    // Verifica e aplica o tema salvo ao carregar a página
+    const savedTheme = localStorage.getItem('theme') || 'light'; // Padrão é claro
+    applyTheme(savedTheme);
+});
