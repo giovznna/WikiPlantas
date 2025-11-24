@@ -781,7 +781,7 @@
   {
     "nome": "Alecrim",
     "descricao": "Nome científico: Salvia rosmarinus",
-    "link": "https://www.jardineiro.net/plantas/alecrim.html",
+    "link": "https://www.jardineiro.net/plantas/alecrim-rosmarinus-officinalis.html",
     "imagem": "https://safraviva.com.br/wp-content/uploads/2022/04/alecrim0.jpg",
     "tags": [
       "Temperos",
@@ -987,4 +987,5 @@
     "dificuldade_cultivo": "Fácil",
     "curiosidades": "Também conhecida como 'Planta Alumínio' devido às manchas prateadas em suas folhas, que parecem ter sido pintadas com tinta metálica."
   }
+
 ]
