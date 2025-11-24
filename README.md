@@ -54,19 +54,4 @@ E pronto! A aplicação estará funcionando localmente.
 
 ---------------------------
 
-
-🎥 Demonstração
-
-Via Web:
-
-<p align="center">
-  <img src="./assets/wiki_pc.gif" width="600">
-</p>
-
-Via Mobile:
-
-<p align="center">
-  <img src="./assets/wiki_mobile.gif" width="600">
-</p>
-
-📈 Melhorias futuras: Melhoria no dark mode mobile e filtros de pesquisa.
+📈 Melhorias futuras: Dark mode mobile e filtros de pesquisa.
