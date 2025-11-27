@@ -125,7 +125,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Verifica e aplica o tema salvo ao carregar a página
-    const savedTheme = localStorage.getItem('theme') || 'light'; // Padrão é claro
-    applyTheme(savedTheme);
 });
