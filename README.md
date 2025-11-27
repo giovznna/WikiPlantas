@@ -12,25 +12,34 @@ Além de fornecer dados como necessidade de água, luz e tipo de solo, cada plan
 
 ✨ Funcionalidades
 
-- Busca Dinâmica: Filtre as plantas em tempo real pelo nome.
+- Busca Dinâmica: Filtra as plantas em tempo real pelo nome, limitada às espécies já catalogadas no projeto (IA em desenvolvimento).
+
 - Informações Detalhadas: Acesse cuidados principais, nível de dificuldade, curiosidades e mais.
-- Tags de Categoria: Encontre plantas por características como "Interior", "Purificadora de Ar", "Sol Pleno", etc.
+
+- Tags de Categoria: Encontre plantas por características como "Interior", "Purificadora de Ar", "Sol Pleno" etc.
+
 - Design Responsivo: Consulte sua base de conhecimento em qualquer dispositivo, seja no computador, tablet ou celular. Para otimizar a performance e a leitura em telas menores, as imagens das plantas não são exibidas na visualização mobile.
-- Tema Claro e Escuro (Dark Mode): Alterne o visual da página para uma leitura mais confortável em diferentes ambientes.
+
+- Tema Escuro Fixo: O modo escuro agora é padrão, garantindo conforto visual e identidade mais consistente.
+
+- Fundo Estático: O gif de fundo foi removido e substituído por uma imagem estática otimizada.
+
 - Links de Aprofundamento: Continue sua pesquisa em um site especializado com apenas um clique.
-  
+
 🚀 Tecnologias Utilizadas
 
 Este é um projeto focado em front-end, construído com tecnologias web fundamentais e modernas:
 
 - HTML5: Estrutura semântica do conteúdo.
-- CSS3: Estilização completa, incluindo:
-- Flexbox para a criação de layouts flexíveis.
-- Variáveis CSS para uma fácil customização e implementação do tema claro/escuro.
-- Media Queries para garantir a responsividade em diferentes tamanhos de tela.
-- Animações e Transições para uma experiência de usuário mais fluida e interativa.
-- JavaScript (Vanilla): Manipulação do DOM para renderizar os cards, implementar a funcionalidade de busca, e alternar o tema da aplicação.
-- JSON (JavaScript Object Notation): Utilizado como uma base de dados leve e de fácil leitura para armazenar todas as informações das plantas.
+
+- CSS3: Estilização completa, incluindo Flexbox, variáveis CSS e Media Queries para responsividade.
+
+- JavaScript (Vanilla): Manipulação do DOM para renderizar os cards e implementar a funcionalidade de busca.
+
+- JSON: Utilizado como uma base de dados leve e de fácil leitura para armazenar todas as informações das plantas.
+  
+- Node.js: Suporte de backend utilizado para expandir o catálogo e gerenciar a comunicação com fontes externas de dados.
+  
 - Hospedagem via GitHub Pages: https://giovznna.github.io/WikiPlantas/
 
 🏃‍♀️ Como Utilizar
@@ -54,4 +63,4 @@ E pronto! A aplicação estará funcionando localmente.
 
 ---------------------------
 
-📈 Melhorias futuras: Dark mode mobile e filtros de pesquisa.
+
