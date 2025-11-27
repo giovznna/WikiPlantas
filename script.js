@@ -18,12 +18,8 @@ async function iniciarBusca(searchTerm = '') {
     const dataToRender = allPlantsData.filter(plant => {
         const lowerCaseSearchTerm = searchTerm.toLowerCase();
         const nameMatches = plant.nome.toLowerCase().includes(lowerCaseSearchTerm);
-        const descriptionMatches = plant.descricao.toLowerCase().includes(lowerCaseSearchTerm);
-        const tagsMatches = Array.isArray(plant.tags) && plant.tags.some(tag => tag.toLowerCase().includes(lowerCaseSearchTerm));
-        const curiositiesMatches = plant.curiosidades && plant.curiosidades.toLowerCase().includes(lowerCaseSearchTerm);
-        const difficultyMatches = plant.dificuldade_cultivo && plant.dificuldade_cultivo.toLowerCase().includes(lowerCaseSearchTerm);
 
-        return nameMatches || descriptionMatches || tagsMatches || curiositiesMatches || difficultyMatches;
+        return nameMatches;
 
     }).sort((a, b) => a.nome.localeCompare(b.nome)); // Ordena os resultados em ordem alfabética pelo nome
  
