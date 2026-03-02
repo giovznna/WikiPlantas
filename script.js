@@ -16,12 +16,10 @@ async function iniciarBusca(searchTerm = '') {
  
     // Aplica o filtro se um termo de busca for fornecido
     const dataToRender = allPlantsData.filter(plant => {
-        const lowerCaseSearchTerm = searchTerm.toLowerCase();
-        const nameMatches = plant.nome.toLowerCase().includes(lowerCaseSearchTerm);
-
+        const lowerCaseSearchTerm = searchTerm.trim().toLowerCase();
+        const nameMatches = plant.nome.trim().toLowerCase().startsWith(lowerCaseSearchTerm);
         return nameMatches;
-
-    }).sort((a, b) => a.nome.localeCompare(b.nome)); // Ordena os resultados em ordem alfabética pelo nome
+      }).sort((a, b) => a.nome.localeCompare(b.nome));
  
     renderizarCards(dataToRender); // Renderiza os dados filtrados
 }
@@ -85,35 +83,6 @@ function mostrarMensagemInicial() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.querySelector('#searchInput');
-    const header = document.querySelector('header');
-
-    // Cria e configura o botão de tema
-    const themeToggleButton = document.createElement('button');
-    themeToggleButton.classList.add('theme-toggle-button');
-    
-    // Adiciona o botão ao cabeçalho
-    if (header) {
-        header.appendChild(themeToggleButton);
-    }
-
-    // Função para aplicar o tema
-    const applyTheme = (theme) => {
-        if (theme === 'dark') {
-            document.body.classList.add('dark-mode');
-            themeToggleButton.textContent = '🌞'; // Sol para ir para o modo claro
-        } else {
-            document.body.classList.remove('dark-mode');
-            themeToggleButton.textContent = '🌙'; // Lua para ir para o modo escuro
-        }
-    };
-
-    // Evento de clique para o botão
-    themeToggleButton.addEventListener('click', () => {
-        const isDarkMode = document.body.classList.contains('dark-mode');
-        const newTheme = isDarkMode ? 'light' : 'dark';
-        localStorage.setItem('theme', newTheme); // Salva a preferência
-        applyTheme(newTheme);
-    });
 
     if (searchInput) {
         // Mostra a mensagem inicial ao carregar a página
