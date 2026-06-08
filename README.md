@@ -50,12 +50,12 @@ Clone o repositório (ou baixe os arquivos):
 
 ```
 bash
-git clone https://github.com/seu-usuario/seu-repositorio.git 
+git clone https://github.com/giovznna/WikiPlantas.git
 ```
 Navegue até a pasta do projeto:
 ```
 bash
-cd seu-repositorio
+cd WikiPlantas
 ```
 
 Abra o arquivo index.html diretamente no seu navegador de preferência (como Google Chrome, Firefox, etc.).
